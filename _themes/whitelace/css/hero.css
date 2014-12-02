@@ -1,0 +1,38 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+body, h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, p {
+  padding: 0 40px;
+}
+
+section:nth-child(odd) {
+  background-color: #eee;
+}
+
+section {
+  position: relative;
+  height: 100%;
+}
+
+.inner {
+  left: 0;
+  max-width: 960px;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+

@@ -1,0 +1,14 @@
+###########################################################################################
+#
+#  THEME VARIABLES
+#
+###########################################################################################
+
+# Theme name
+theme_name: WhiteLace
+
+# Comments
+show_comments: no
+
+# Global text snippets
+no_results_text: "Sorry, no results found."
