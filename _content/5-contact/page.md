@@ -1,6 +1,6 @@
 ---
-title: Camp Spots
+title: Contact
 _template: map
-_default_folder_template: single-map
 include_maps: true
 ---
+### Heading for Contact page

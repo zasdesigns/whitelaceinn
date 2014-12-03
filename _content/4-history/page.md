@@ -1,6 +1,6 @@
 ---
-title: Survival Guide
+title: History
 _template: section
 _fieldset: page
 ---
-### I can teach you many things. Things that will keep you alive.
+### Heading for History page
