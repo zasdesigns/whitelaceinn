@@ -3,4 +3,7 @@ title: Rooms and Rates
 _template: page
 _fieldset: page
 ---
-### Room 1
+
+# Rooms and Rates Heading
+
+Room Rates are per night, double or single occupancy, Full Breakfast Included!
