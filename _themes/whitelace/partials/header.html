@@ -1,0 +1,49 @@
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img src="{{ theme:img src="wwlitype.jpg" }}" alt="White Lace Inn">
+        </a>
+      </div>
+
+      <div>
+          <ul class="nav navbar-nav navbar-right">
+            <li role="presentation" class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><b>Check Availability</b><span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                  <form method="POST" class="form">
+                    <div class="field clear">
+                      <p>Arrival Date
+                      <input type="text" name="p_start_date" id="datepicker" class="input datepicker" placeholder="Select date" /></p>
+                    </div>
+                    <div class="field clear">
+                      <p>Departure Date
+                      <input type="text" name="p_start_date" id="datepicker" class="input datepicker" placeholder="Select date" /></p>
+                    </div>
+                    <button type="submit" name="res_submit">Check</button>
+                  </form>
+              </ul>
+            </li>
+          </ul>
+      </div>
+
+      <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="/rooms-and-rates">Rooms &amp; Rates <span class="sr-only"></span></a></li>
+          <li><a href="/services">Services <span class="sr-only"></span></a></li>
+          <li><a href="/recipes">Recipes <span class="sr-only"></span></a></li>
+          <li><a href="/history">History <span class="sr-only"></span></a></li>
+          <li><a href="/contact">Contact <span class="sr-only"></span></a></li>
+          <li><a href="/blog">Blog <span class="sr-only"></span></a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
