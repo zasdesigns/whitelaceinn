@@ -1,1 +1,62 @@
-/* Make it pretty, okay? ----------------- */
+/* Header ----------------- */
+
+.header-logo {
+  height: 100px;
+}
+
+
+/* Navigation ----------------- */
+
+
+
+/*.navbar-collapse {
+  float: right;
+}
+
+.navbar-toggle {
+  float: right;
+}
+
+.container-fluid {
+max-width: 100%;
+}
+
+ul.checkAvailability {
+  float: left;
+}*/
+
+.navbar {
+  border: 0;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.navbar-default {
+  background-color: #fff;
+  text-color: #DDD;
+}
+
+.header-nav {
+  display: inline-block;
+}
+/* Body ----------------- */
+
+
+/* Body: Home Page */
+
+.home {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+}
+
+.jumbotron {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.home-jumbotron {
+  height: 600px;
+}
+
+/* Footer ----------------- */
