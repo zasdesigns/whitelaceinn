@@ -1,7 +1,7 @@
 ---
-title: Rooms and Rates
-_template: page
-_fieldset: page
+title: Rooms & Rates
+_template: rooms
+_layout: default
 ---
 
 # Rooms and Rates Heading

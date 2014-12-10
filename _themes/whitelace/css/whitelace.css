@@ -1,12 +1,13 @@
 /* Header ----------------- */
 
 .header-logo {
-  display: inline-block;
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 504px;
 }
 
 .logo {
-  height: 80px;
+  height: 100px;
 
 }
 
