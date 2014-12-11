@@ -7,9 +7,9 @@ title: Room 11
 ##### The Hideaway:
 This second story hideaway has lots of old-fashioned charm, starting with its moss green and peach color scheme. A down filled chaise lounge faces the fireplace and is across from the beautifully carved 1870’s Victorian mahogany bed.
 - Queen bed
-- TV-VCR
 - Tub-shower
 - Wood burning fireplace
+- TV-VCR
 - Balcony
 - Wi-Fi
 
