@@ -1,9 +1,21 @@
+/* Global ----------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+
 /* Header ----------------- */
 
 .header-logo {
   margin-left: auto;
   margin-right: auto;
   width: 504px;
+  text-decoration: none;
 }
 
 .logo {
@@ -102,5 +114,100 @@ ul.checkAvailability {
 .home-jumbotron {
   height: 600px;
 }
+
+/* Body: Rooms and Rates */
+.row-fluid .span6 {
+  width: 49%;
+  float: left;
+  margin-left: 1%;
+}
+.row-fluid .span12 {
+  width: 100%;
+}
+.row-fluid .span12:first-child {
+  margin-left: 0;
+  margin-top: 20px;
+}
+.row-fluid::after {
+  clear: both;
+}
+.row-fluid::before, .row-fluid::after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.rooms-landing .display{
+  float:right;
+  overflow:hidden;
+  margin:2em 0 3em;
+}
+
+.rooms-landing .display li{
+  display:inline-block;
+}
+
+.rooms-landing .display li:first-child{
+  margin-right:15px;
+}
+.display-list span, .display-grid span{
+  display:inline-block;
+  height:20px;
+  width:20px;
+  margin-right:10px;
+  position: relative;
+  top:4px;
+}
+.rooms > .row-fluid,
+.rooms > em .row-fluid{
+  margin-bottom:35px;
+}
+
+.rooms > .row-fluid:last-child{
+  margin-bottom:0;
+}
+.rooms.list .row-fluid,
+.rooms.grid .row-fluid {
+  border-top:1px solid #e6e2d7;
+  padding-top:3em
+}
+
+.rooms.grid ul {display:block; width:100%; text-align:right; overflow:hidden; border-top:1px solid #E6E2D7; padding-top: 1.9em;
+  margin-top: 0;}
+
+.rooms.list .row-fluid:first-child {
+  border:none;
+  padding-top:0
+}
+.rooms{
+  position: relative;
+  margin-top:25px;
+}
+
+.room-image{
+  float:left;
+}
+
+.rooms .room-image img{
+  width:100%;
+  height:auto;
+}
+.grid .room{
+  width:48%;
+  display:inline-block;
+  position: relative;
+}
+
+.grid .room p, .grid .room ul.amenities{
+  display:none !important;
+}
+.grid .room h2{
+  text-align:center;
+  margin-top:15px;
+}
+
+.grid .room:nth-child(even){
+  margin-right:3.125%;
+}
+
 
 /* Footer ----------------- */
