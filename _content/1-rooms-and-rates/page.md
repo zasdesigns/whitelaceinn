@@ -1,6 +1,6 @@
 ---
 title: Rooms & Rates
-_template: rooms
+_template: rooms2
 _layout: default
 ---
 

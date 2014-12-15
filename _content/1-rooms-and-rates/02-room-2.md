@@ -2,6 +2,7 @@
 title: "Room 2: Old Garden Roses"
 _template: individual-room
 range: $100-$155
+img1: /assets/img/test1.png
 rates:
   -
     date: "Per Night Rates October 26, 2014 thru June 20, 2015:"

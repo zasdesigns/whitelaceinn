@@ -28,32 +28,5 @@ jQuery(document).ready(function($){
     return false;
   });
 
-  var timeouts = {};
-  $('.main-nav li').hover(function(){
-    var li = this;
-    var menuItem = $(this).attr('id');
-    if (timeouts[menuItem]) clearTimeout(timeouts[menuItem]);
-    timeouts[menuItem] = setTimeout(function(){
-      $('.sub-menu', li).show();
-    }, 15);
-  },
-  function() {
-    var li = this;
-    var menuItem = $(this).attr('id');
-    if (timeouts[menuItem]) clearTimeout(timeouts[menuItem]);
-    timeouts[menuItem] = setTimeout(function(){
-      $('.sub-menu', li).hide()
-    }, 100);
-  });
-
-  $('a[href$=".gif"], a[href$=".jpg"], a[href$=".png"]').fancybox();
-  $('.gallery a').attr('rel', 'gallery1');
-  $(".fancybox").fancybox();
-
-  /* Hide Empty <li> */
-  $('li').filter(function(){
-    return $.trim($(this).html()) == '';
-  }).hide()
-
 
 });
