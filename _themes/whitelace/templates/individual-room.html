@@ -1,8 +1,14 @@
 <div class="container">
 
+<h1>{{ title }}</h1>
+
 {{ content }}
 
-{{ get_content from="{{ page_url }}/rates/"}}
-{{ /get_content }}
+{{ rates }}
+
+  <strong>{{ date }}</strong><br>
+  {{ day }}<br>
+
+{{ /rates }}
 
 </div>
