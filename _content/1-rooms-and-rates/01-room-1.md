@@ -2,7 +2,7 @@
 title: "Room 1: Door County Orchard"
 _template: individual-room
 range: $100-$165
-img1: /assets/img/test1.png
+img1: /assets/img/test2.png
 rates:
   -
     date: "Per Night Rates October 26, 2014 thru June 20, 2015:"
