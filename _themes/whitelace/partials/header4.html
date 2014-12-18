@@ -1,0 +1,43 @@
+<div class="header-section">
+
+<div class="header-logo">
+  <a href="/" class="wli-logo">
+    <!-- <object {{ svgi:theme src="img/white-lace-inn-logo.svg" }}</object> -->
+  </a>
+</div>
+
+<div class="cta col-sm-12 col-xs-6">
+  <a href="#" class="btn btn-default" role="button">Check Availability</a>
+</div>
+
+<div class="navigation col-sm-12 col-xs-6">
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span><i class="fa fa-bars"> Menu</i></span>
+      </button>
+    </div>
+
+    <div class="header-nav">
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          {{ nav from="/" max_depth="2" }}
+          <li>
+            <a href="{{ url }}" {{ if is_current }} class="current"{{ endif }}>
+              {{ title }}
+              <span class="sr-only"></span>
+            </a>
+          </li>
+          {{ /nav }}
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</nav>
+</div>
+
+</div>
