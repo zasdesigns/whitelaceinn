@@ -37,8 +37,11 @@ p {
   color: #333;
 }
 .container {
-  background-color: #fcfbf8;
-  border: 2px solid #dfdbce;
+  /* background-color: #fcfbf8;
+  border: 2px solid #dfdbce; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -62,8 +65,12 @@ a.wli-logo {
 
 
 
-.collapse.navbar-collapse {
+span.collapse.navbar-collapse {
 display: inline-block !important;
+}
+.navbar-nav {
+  float: none !important;
+  display: inline-block;
 }
 /*
 .navbar-toggle {
@@ -227,5 +234,31 @@ section {
   }
 }
 
+/* Body: Individual Room */
+.jumbotron.individual-room {
+  height: 400px;
+  max-width: 1200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+}
+@media (max-width: 991px) {
+  .jumbotron.individual-room {
+    height: 300px;
+  }
+}
+.room-info {
+  max-width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2 {
+  text-align: center;
+}
 
 /* Footer ----------------- */

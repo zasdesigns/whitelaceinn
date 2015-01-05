@@ -1,14 +1,17 @@
+<div class="jumbotron individual-room" style="background-image:url('{{ jumbo-img }}');">
+</div>
+
 <div class="container">
+  <div class="room-info">
+    <h2>{{ title }}</h2>
 
-<h2>{{ title }}</h2>
+    {{ content }}
 
-{{ content }}
+    {{ rates }}
 
-{{ rates }}
+      <strong>{{ date }}</strong><br>
+      {{ day }}<br>
 
-  <strong>{{ date }}</strong><br>
-  {{ day }}<br>
-
-{{ /rates }}
-
+    {{ /rates }}
+  </div>
 </div>
