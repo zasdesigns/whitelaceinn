@@ -2,6 +2,12 @@
 title: "Room 6: Vintage Rose"
 _template: individual-room
 range: $70-$145
+amenities:
+  - Queen bed
+  - Tub-shower
+  - Wood burning fireplace
+  - Ground floor
+  - Wi-Fi
 rates:
   -
     date: "Per Night Rates October 26, 2014 thru June 20, 2015:"
@@ -15,12 +21,3 @@ rates:
 ---
 
 Snuggle into this classic Sheraton four-poster bed with a bowed canopy. Walls are covered with pastel vintage roses on a white background and complemented by Waverly fabric with extravagant bouquets of roses on a yellow background.
-<div class="amenities">
-  <ul class="amenities">
-    <li>Queen bed</li>
-    <li>Tub-shower</li>
-    <li>Wood burning fireplace</li>
-    <li>Ground floor</li>
-    <li>Wi-Fi</li>
-  </ul>
-</div>

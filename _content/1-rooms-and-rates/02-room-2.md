@@ -3,6 +3,11 @@ title: "Room 2: Old Garden Roses"
 _template: individual-room
 range: $100-$155
 img1: /assets/img/test2.png
+amenities:
+  - Queen bed
+  - Double size whirlpool
+  - TV
+  - Wi-Fi
 rates:
   -
     date: "Per Night Rates October 26, 2014 thru June 20, 2015:"
@@ -16,11 +21,3 @@ rates:
 ---
 
 Large windows, light colored fabrics and walls create a charming backdrop for the elegant 1880’s Renaissance Victorian bed. An Empire sofa provides comfortable seating. Walls are bouquets of roses in soft pastels on a pale yellow background.
-<div class="amenities">
-  <ul class="amenities">
-    <li>Queen bed</li>
-    <li>Double size whirlpool</li>
-    <li>TV</li>
-    <li>Wi-Fi</li>
-  </ul>
-</div>

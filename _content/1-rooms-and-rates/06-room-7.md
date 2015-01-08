@@ -2,6 +2,13 @@
 title: "Room 7: Garden View"
 _template: individual-room
 range: $80-$155
+amenities:
+  - Queen bed
+  - Tub-shower
+  - Wood burning fireplace
+  - TV
+  - Ground floor
+  - Wi-Fi
 rates:
   -
     date: "Per Night Rates October 26, 2014 thru June 20, 2015:"
@@ -15,13 +22,3 @@ rates:
 ---
 
 Look out of the bay windows to see the seasons change from bright garden florals to winter whites. Walls are covered with a large pastel floral wallpaper. Across from the fireplace is a comfortable sofa and the 1880’s Victorian cherry bed.
-<div class="amenities">
-  <ul class="amenities">
-    <li>Queen bed</li>
-    <li>Tub-shower</li>
-    <liLWood burning fireplace</li>
-    <li>TV</li>
-    <li>Ground floor</li>
-    <li>Wi-Fi</li>
-  </ul>
-</div>

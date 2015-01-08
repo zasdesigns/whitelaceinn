@@ -2,6 +2,11 @@
 title: "Room 3: English Lavender"
 _template: individual-room
 range: $70-$145
+amenities:
+  - Double bed
+  - Double size whirlpool
+  - TV
+  - Wi-Fi
 rates:
   -
     date: "Per Night Rates October 26, 2014 thru June 20, 2015:"
@@ -15,11 +20,3 @@ rates:
 ---
 
 Enter a country fresh world of lavender and green in this romantic little room. The handsome cherry four-poster bed is dressed in lavender and green linens. The bathroom is tiled in white and lavender Italian tile.
-<div class="amenities">
-  <ul class="amenities">
-    <li>Double bed</li>
-    <li>Double size whirlpool</li>
-    <li>TV</li>
-    <li>Wi-Fi</li>
-  </ul>
-</div>
